@@ -63,9 +63,40 @@ header {
 
 .template-description {
     color: #444343;
-    margin: 24px 500px 16px 0;   
+    margin: 24px 500px 16px 0;
 }
 
-.list-item{
+.list-item {}
 
+/* plans */
+.plans {
+    text-align: center;
+}
+
+.plan {
+    font-weight: 700;
+    font-size: 40px;
+    margin: 130px 0 50px 0;
+}
+
+.plans-details {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+
+.plan-title {
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-sub-title {
+    font-weight: 500;
+    font-size: 25px;
+    color: #737272;
+
+}
+
+.plan-image{
+    padding-bottom: 20px;
 }
