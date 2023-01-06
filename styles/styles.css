@@ -1,10 +1,12 @@
 * {
     margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 /* header */
 header {
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(../images/banner/banner3.png);
     width: 1600px;
     height: 808px;
 }
@@ -30,8 +32,8 @@ header {
 
 .btn-contact {
     font-weight: 600;
-font-size: 20px;
-color: #005FAC;
+    font-size: 20px;
+    color: #005FAC;
     width: 160px;
     height: 64px;
     margin: 0px 230px 166px 1210px;
@@ -40,4 +42,30 @@ color: #005FAC;
 }
 
 /* main */
-/* template one */
+.container {
+    display: flex;
+}
+
+.banner-image {
+    margin: 131px 87px 0 206px;
+}
+
+.banner {
+    margin: 0;
+}
+
+.template-title {
+    margin: 370px 400px 24px 0px;
+    padding: 0 40px 0 0;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.template-description {
+    color: #444343;
+    margin: 24px 500px 16px 0;   
+}
+
+.list-item{
+
+}
