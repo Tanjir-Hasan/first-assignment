@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+}
+
+/* header */
+header {
+    background-image: url(/images/banner/banner3.png);
+    width: 1600px;
+    height: 808px;
+}
+
+.header-content {
+    text-align: right;
+}
+
+.header-title {
+    font-size: 65px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 65px;
+    padding: 216px 230px 24px 845px;
+}
+
+.header-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 0px 230px 32px 876px;
+}
+
+.btn-contact {
+    font-weight: 600;
+font-size: 20px;
+color: #005FAC;
+    width: 160px;
+    height: 64px;
+    margin: 0px 230px 166px 1210px;
+    border-radius: 5px;
+    border: none;
+}
+
+/* main */
+/* template one */
